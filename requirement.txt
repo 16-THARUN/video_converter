@@ -1,0 +1,11 @@
+# --- Core Image & Video Processing ---
+opencv-python>=4.10.0
+numpy>=2.1.0
+Pillow>=10.4.0
+
+# --- UI & Logging ---
+tqdm>=4.66.0
+colorama>=0.4.6
+
+# --- Metadata & Formatting ---
+json5>=0.9.25

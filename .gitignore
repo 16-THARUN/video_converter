@@ -1,0 +1,11 @@
+rife-ncnn-vulkan-20221029-windows/
+avfilter-11.dll
+avcodec-62.dll
+ffmpeg.exe
+*.dll
+*.exe
+frames_in/
+frames_out/
+frames_in_processed/
+*.hevc
+*.bin
