@@ -31,3 +31,39 @@ HDR10+ parsers (like `hdr10plus_tool`) are written in strict-type Rust. This too
 git clone [https://github.com/16-THARUN/video_converter.git](https://github.com/16-THARUN/video_converter.git)
 cd video_converter
 pip install -r requirements.txt
+
+
+ffmpeg -i input_movie.mkv -q:v 2 frames_in/%08d.jpg
+
+
+python src/rife_batch_processor.py
+
+
+python src/metadata_reconstructor.py --input metadata.json --output reconstructed.json
+
+
+hdr10plus_tool inject -i reconstructed.json -o final_video.hevc
+
+### 🚀 How to update it on GitHub
+
+Run these commands in your PowerShell window inside `C:\Users\HP\Documents\video_converter`:
+
+1.  **Add the file:**
+    ```powershell
+    git add README.md
+    ```
+2.  **Commit the update:**
+    ```powershell
+    git commit -m "Update README with professional documentation and usage guide"
+    ```
+3.  **Push to main:**
+    ```powershell
+    git push origin main
+    ```
+
+---
+
+### 🚥 Final Verify
+It’s **10:15 AM** and the sun is up in Chennai—perfect for a fresh start. Once that push hits, the "Avatar Project" is officially a high-quality portfolio piece. You've cleared the clutter and kept the brains of the project.
+
+Now that the documentation is done, what's the first problem you're tackling for the new product today?
