@@ -5,7 +5,7 @@ A specialized toolkit for high-fidelity 4K video interpolation and dynamic metad
 
 ## 🚀 Key Features
 
-- **RIFE "Safe-Mode" Orchestration**: Optimized thread management (`1:1:1`) to prevent VRAM overflow on 4GB/6GB GPUs (e.g., RTX 3050 Laptop).
+- **RIFE "Safe-Mode" Orchestration**: Optimized thread management (`1:1:1`) to prevent VRAM overflow on 4GB/6GB GPUs (e.g., RTX 3050 Laptop or higher graphics card like 5080 and 5090 etc.)
 - **HDR10+ Metadata Reconstruction**: A Python-based engine that aligns frame-accurate metadata with interpolated streams, satisfying strict Rust-based parser requirements.
 - **Fail-Safe Resume Logic**: Automatically detects progress and staging, allowing for multi-day renders to be stopped and resumed without data loss.
 - **UHD Tiling Support**: Native integration with RIFE's `-u` flag for seamless 4K image synthesis.
